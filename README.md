@@ -10,7 +10,7 @@ Adds a command for opening the current file in
 ## Install
 
 Follow the instructions in the
-[Marketplace](https://marketplace.visualstudio.com/items?itemName=davidbucka.vscode-open-in-sketch),
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=davidbucka.open-in-sketch),
 or run the following in the command palette:
 
 ```shell
