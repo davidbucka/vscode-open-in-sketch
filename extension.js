@@ -20,13 +20,29 @@ function activate(context) {
         "extension.openSketch",
         function() {
             // The code you place here will be executed every time your command is executed
-
+            const allowedFileTypes = [
+                "svg",
+                "pdf",
+                "eps",
+                "png",
+                "jpg",
+                "tiff",
+                "webp"
+            ];
             // Display a message box to the user
-            vscode.window.showInformationMessage("Opening Sketch!");
-            var currentlyOpenTabfilePath =
+            const currentlyOpenTabfilePath =
                 vscode.window.activeTextEditor.document.fileName;
+            const fileType = currentlyOpenTabfilePath.split(".")[1];
+            const allowed = allowedFileTypes.filter(type => type === fileType);
 
-            open(currentlyOpenTabfilePath, "sketch");
+            if (allowed.length > 0) {
+                vscode.window.showInformationMessage("Opening Sketch!");
+                open(currentlyOpenTabfilePath, "sketch");
+            } else {
+                vscode.window.showInformationMessage(
+                    "Sketch can't handle this file! :("
+                );
+            }
         }
     );
 
