@@ -2,7 +2,7 @@
     "name": "open-in-sketch",
     "displayName": "Open in Sketch",
     "description": "Open current file in Sketch",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "davidbucka",
     "repository": {
         "type": "git",
