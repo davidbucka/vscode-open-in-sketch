@@ -4,6 +4,7 @@
     "description": "Open current file in Sketch",
     "version": "0.0.1",
     "publisher": "davidbucka",
+    "repository":"https://github.com/davidbucka/vscode-open-in-sketch",
     "engines": {
         "vscode": "^1.22.0"
     },
