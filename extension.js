@@ -32,9 +32,11 @@ function activate(context) {
             // Display a message box to the user
             const currentlyOpenTabfilePath =
                 vscode.window.activeTextEditor.document.fileName;
-            const fileType = currentlyOpenTabfilePath.split(".")[1];
-            const allowed = allowedFileTypes.filter(type => type === fileType);
+            const fileType = currentlyOpenTabfilePath.split("/");
+            const fileName = fileType[fileType.length - 1].split(".")[1];
+            const allowed = allowedFileTypes.filter(type => type === fileName);
 
+            console.log(fileName);
             if (allowed.length > 0) {
                 vscode.window.showInformationMessage("Opening Sketch!");
                 open(currentlyOpenTabfilePath, "sketch");
