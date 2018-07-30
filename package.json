@@ -9,13 +9,23 @@
         "url": "https://github.com/davidbucka/vscode-open-in-sketch.git"
     },
     "icon": "resources/logo.png",
-    "keywords": ["vscode", "vsc", "extension", "open in", "sketch"],
+    "keywords": [
+        "vscode",
+        "svg",
+        "extension",
+        "open in",
+        "sketch"
+    ],
     "license": "MIT",
     "engines": {
         "vscode": "^1.22.0"
     },
-    "categories": ["Other"],
-    "activationEvents": ["onCommand:extension.openSketch"],
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.openSketch"
+    ],
     "main": "./extension.js",
     "contributes": {
         "commands": [

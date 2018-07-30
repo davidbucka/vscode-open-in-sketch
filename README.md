@@ -4,7 +4,7 @@
 	<img src="https://raw.githubusercontent.com/davidbucka/vscode-open-in-sketch/master/resources/logo.png" alt="Logo">
 </p>
 
-Adds a command for opening the current file in
+Adds a command for opening your current .svg file in
 [Sketch](hhttps://www.sketchapp.com/).
 
 ## Install

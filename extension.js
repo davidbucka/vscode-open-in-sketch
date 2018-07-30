@@ -24,7 +24,6 @@ function activate(context) {
                 "svg",
                 "pdf",
                 "eps",
-                "png",
                 "jpg",
                 "tiff",
                 "webp"
