@@ -54,7 +54,7 @@
         "@types/mocha": "^2.2.42"
     },
     "dependencies": {
-        "open": "0.0.5",
+        "open": "6.0.0",
         "path": "^0.12.7"
     }
 }
