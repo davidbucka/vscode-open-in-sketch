@@ -5,7 +5,7 @@
 </p>
 
 Adds a command for opening your current .svg file in
-[Sketch](hhttps://www.sketchapp.com/).
+[Sketch](https://www.sketch.com/).
 
 ## Install
 
