@@ -26,7 +26,8 @@ function activate(context) {
                 "eps",
                 "jpg",
                 "tiff",
-                "webp"
+                "webp",
+                "sketch"
             ];
             // Display a message box to the user
             const currentlyOpenTabfilePath =
